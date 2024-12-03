@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Amasis MT Pro';
+    src: url('fonts/AmasisMTPro-Regular.woff2') format('woff2'),
+         url('fonts/AmasisMTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #1e1e2e;
+    color: #e0e0e0;
+    font-family: 'Times New Roman', Times, serif; /* Change text font to Times New Roman */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e2e3e;
+    border-bottom: 3px solid #8a2be2; /* Purple border */
+}
+
+header .title {
+    font-family: 'Cinzel Decorative', sans-serif; /* Revert to original font */
+    font-size: 1.5em; /* Title font size */
+    color: #8a2be2; /* Purple text */
+    text-shadow: 2px 2px 5px #000;
+    font-weight: normal; /* Make title unbolded */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: 'Amasis MT Pro', serif; /* Change font to Amasis MT Pro */
+    color: #8a2be2; /* Purple links */
+    text-decoration: none;
+    font-size: 1.2em; /* Navigation links font size */
+    font-weight: normal; /* Make navigation links unbolded */
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    margin: 10px 10%; /* Increased margins on the sides */
+    background-color: rgba(46, 46, 62, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+section h2 {
+    font-family: 'Amasis MT Pro', serif; /* Change font to Amasis MT Pro */
+    font-size: 1.2em; /* Section headings font size */
+    color: #8a2be2; /* Purple text */
+    text-shadow: 2px 2px 5px #000;
+    font-weight: normal; /* Make section headings unbolded */
+}
+
+section p {
+    font-size: 1.1em; /* Increase paragraph font size */
+    font-family: 'Amasis MT Pro', serif; /* Change text font to Amasis MT Pro */
+}
+
+.about-box, .resume-box {
+    background-color: #2e2e3e;
+    padding: 15px;
+    margin: 10px 10%; /* Increased margins on the sides */
+    border: 2px solid #8a2be2; /* Purple border */
+    border-radius: 5px;
+}
+
+.resume-box h3 {
+    font-family: 'Amasis MT Pro', serif; /* Change font to Amasis MT Pro */
+    font-size: 1.2em; /* Subsection headings font size */
+    color: #8a2be2; /* Purple text */
+    text-shadow: 2px 2px 5px #000;
+    font-weight: normal; /* Make subsection headings unbolded */
+}
+
+.game, .media {
+    background-color: #2e2e3e;
+    padding: 15px;
+    margin: 10px 10%; /* Increased margins on the sides */
+    border: 2px solid #8a2be2; /* Purple border */
+    border-radius: 5px;
+}
+
+.game h3, .media h3 {
+    font-family: 'Amasis MT Pro', serif; /* Change font to Amasis MT Pro */
+    font-size: 1.2em; /* Subsection headings font size */
+    color: #8a2be2; /* Purple text */
+    text-shadow: 2px 2px 5px #000;
+    font-weight: normal; /* Make subsection headings unbolded */
+}
+
+.game p, .media p {
+    font-size: 1.1em; /* Increase paragraph font size */
+    color: #e0e0e0;
+    font-family: 'Amasis MT Pro', serif; /* Change text font to Amasis MT Pro */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.media img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
